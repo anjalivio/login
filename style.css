@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    background-image: url(img/bg.2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.login-form{
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(238, 208, 143);
+    background: rgb(238, 208, 143) ;
+
+}
+.daftar-form{
+    width: 450px;
+    height: 650px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(238, 208, 143);
+    background: rgb(238, 208, 143) ;
+
+}
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+        background: white;
+        color: black;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        margin: 0;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus
+input[type="text"]:focus{
+    outline: none;
+    border: none;
+    margin: 0;
+}
+.card-title{
+    font-weight: 900;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+.mb-3{
+    font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+}
+.btn1{
+    background: white;
+    border-radius: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
